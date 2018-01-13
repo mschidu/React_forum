@@ -33,7 +33,7 @@ handleOnSubmit(e){
             return <option key={category} value={category}>{category}</option>
         })
         return(
-            <div>
+            <div className = "wrapper">
                 <form onSubmit={this.handleOnSubmit.bind(this)}>
                     <h3><label className="label label-default">Title</label></h3>
                     <input type="text" ref="title" className="form-control" />
