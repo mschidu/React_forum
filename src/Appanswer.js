@@ -40,10 +40,9 @@ handleAddAnswer(newanswer){
 }
 
   render() {
-    console.log(this.state);
     return (
       <div className="App">
-        <h1> Question: what is react?</h1>
+        <h1>what is react?</h1>
         <AddAnswer AddAnswer={this.handleAddAnswer.bind(this)} /> <br />
         <Answer details = {this.state.answers} />
       </div>
